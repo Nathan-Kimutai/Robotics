@@ -1,3 +1,42 @@
-nav .navbar-inverse {
-	border-radius:none;
+#navbar {
+	background-color: rgba(0, 0, 0, 0.767);
+	border-radius: 0;
+	border: none;
+}
+
+#banner {
+	background: #293f50;
+	/* background-image: url("../../public/img/main_header.jpg"); */
+	background-size: contain;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#banner h2 {
+	font-size: 44px;
+	color: #fff;
+}
+
+#banner p {
+	line-height: 44px;
+	font-size: 22px;
+	color: #fff;
+}
+
+#banner .btn {
+	border: 2px solid #fff;
+	padding: 20px 20px 20px 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#banner .btn:hover {
+	background-color: #fff;
+	color: #293f50;
+}
+
+@media (max-width: 560px ) {
+	#banner {
+		padding-top: 50px;
+	}
 }
