@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{!! asset('css/bootstrap.css') !!}">
     <link rel="stylesheet" type="text/css" href="{!! asset('css/style.css') !!}">
+	<base href="https://shrouded-cove-28195.herokuapp.com/">
 	<title>@yield('title')</title>
 </head>
 <body>
